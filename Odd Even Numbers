@@ -1,0 +1,18 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    for ( int x=20; x <= 24; x++ ){
+        cout << x << endl;
+        if ( x % 2 == 0 ){
+            cout << "this is even" << endl;
+        }
+        else{
+            cout << " This is Odd " << endl;
+        }
+    }
+    }
+    
